@@ -7,7 +7,7 @@ import AppLoading from "expo-app-loading";
 import { useFonts } from "expo-font";
 import { StatusBar } from "react-native";
 import { Background } from "./src/components/Background";
-import { Home } from "./src/screens/Home";
+import { Routes } from "./src/routes";
 import { SignIn } from "./src/screens/SignIn";
 
 
@@ -29,8 +29,7 @@ export default function App() {
         backgroundColor="transparent"
         translucent
       />
-      {/* <SignIn /> */}
-      <Home />
+      <Routes />
     </Background>
   );
 }
