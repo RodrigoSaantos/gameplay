@@ -1,3 +1,4 @@
+import 'react-native-gesture-handler';
 import { Inter_400Regular, Inter_500Medium } from "@expo-google-fonts/inter";
 import {
   Rajdhani_500Medium,
