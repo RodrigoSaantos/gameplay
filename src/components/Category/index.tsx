@@ -1,11 +1,10 @@
-import { ScrollView, Text, View } from "react-native";
-import { RectButton, RectButtonProps } from "react-native-gesture-handler";
-import { categories } from "../../utils/categories";
-import { SvgProps } from 'react-native-svg';
-import { styles } from "./styles";
-import { FC } from "react";
-import { theme } from "../../global/styles/theme";
 import { LinearGradient } from "expo-linear-gradient";
+import { FC } from "react";
+import { Text, View } from "react-native";
+import { RectButton, RectButtonProps } from "react-native-gesture-handler";
+import { SvgProps } from 'react-native-svg';
+import { theme } from "../../global/styles/theme";
+import { styles } from "./styles";
 
 type Props = RectButtonProps & {
   title: string;
